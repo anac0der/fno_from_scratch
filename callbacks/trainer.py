@@ -16,6 +16,8 @@ class Trainer:
                  mg_patching_levels=0, mg_patching_padding=0, mg_patching_stitching=True,
                  log_test_interval=1, log_output=False, use_distributed=False, verbose=True):
         """
+        Extended version of default neuralop trainer from pip installation
+        
         A general Trainer class to train neural-operators on given datasets
 
         Parameters
